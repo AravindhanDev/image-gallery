@@ -7,8 +7,8 @@ $('#imageGallery').imagePopup({
     },
     imageBorder: "10px solid #f4eee8",
     borderRadius: "0.5rem",
-    imageWidth: "35rem",
-    imageHeight: "30rem",
+    imageWidth: "20rem",
+    imageHeight: "20rem",
     imageCaption: {
         exist: true,
         color: "#f4eee8",
@@ -33,8 +33,8 @@ $('#imageGallery2').imagePopup({
     },
     imageBorder: "10px solid #f4eee8",
     borderRadius: "0.5rem",
-    imageWidth: "35rem",
-    imageHeight: "30rem",
+    imageWidth: "20rem",
+    imageHeight: "20rem",
     imageCaption: {
         exist: true,
         color: "#f4eee8",
@@ -60,8 +60,8 @@ $('#imageGallery3').imagePopup({
     },
     imageBorder: "10px solid #f4eee8",
     borderRadius: "0.5rem",
-    imageWidth: "35rem",
-    imageHeight: "30rem",
+    imageWidth: "20rem",
+    imageHeight: "20rem",
     imageCaption: {
         exist: true,
         color: "#f4eee8",
