@@ -1,118 +1,139 @@
-           :root {
-              --primary-color: #fff;
-              --secondary-color: #111111;
-          }
-          
-          .dark-theme {
-              --primary-color: #111111;
-              --secondary-color: #fff;
-          }
-          
-          * {
-              padding: 0;
-              margin: 0;
-              box-sizing: border-box;
-          }
-          
-          body {
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              background-color: var(--primary-color);
-              /* background-color: #3a7570; */
-              background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
-          }
-          
-          .heading {
-              color: var(--secondary-color);
-              text-align: center;
-              font-family: monospace;
-              font-size: 2.5rem;
-              margin: 2rem 0;
-              font-family: 'Alegreya Sans SC', sans-serif;
-          }
-          
-          ul {
-              list-style: none;
-              margin: auto;
-              max-width: 78rem;
-              text-align: center;
-              padding: 0;
-              display: block;
-          }
-          
-          ul li {
-              padding: 0.5rem;
-              background: var(--secondary-color);
-              margin: 0.5rem;
-              display: inline-block;
-              border-radius: 5px;
-          }
-          
-          a {
-              text-decoration: none;
-          }
-          
-          ul li img {
-              display: block;
-              width: 100%;
-              height: 100%;
-          }
-          
-          #icon {
-              width: 3rem;
-              cursor: pointer;
-              padding: 1rem 0 0 1rem;
-          }
-          
-          #myBtn {
-              display: none;
-              position: fixed;
-              bottom: 20px;
-              right: 10px;
-              z-index: 99;
-              border: none;
-              outline: none;
-              background-color: var(--primary-color);
-              color: var(--secondary-color);
-              cursor: pointer;
-              padding: 15px;
-              border-radius: 10px;
-              font-size: 10px;
-          }
-          
-          #myBtn:hover {
-              background-color: var(--secondary-color);
-              color: var(--primary-color);
-          }
-          
-          .big {
-              font-size: 2rem;
-          }
-          
-          #header {
-              height: 5rem;
-              width: 100%;
-          }
-          
-          .mode {
-              position: absolute;
-              right: 1rem;
-              top: 0.5rem;
-          }
-          
-          .brand {
-              position: absolute;
-              left: 1rem;
-              top: 1rem;
-              color: var(--secondary-color);
-              font-family: 'Seymour One', sans-serif;
-          }
-          
-          @media all and (max-width: 980px) {
-              ul li {
-                  margin: 3rem;
-              }
-              ul li img {
-                  width: 100%;
-                  height: 100%;
-              }
-          }
+         :root {
+            --primary-color: #fff;
+            --secondary-color: #111111;
+        }
+        
+        .dark-theme {
+            --primary-color: #111111;
+            --secondary-color: #fff;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-color);
+            /* background-color: #3a7570; */
+            background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+        }
+        
+        .heading {
+            color: var(--secondary-color);
+            text-align: center;
+            font-family: monospace;
+            font-size: 2.5rem;
+            margin: 2rem 0;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        
+        ul {
+            list-style: none;
+            margin: auto;
+            max-width: 78rem;
+            text-align: center;
+            padding: 0;
+            display: block;
+        }
+        
+        ul li {
+            padding: 0.5rem;
+            background: var(--secondary-color);
+            margin: 0.5rem;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        ul li img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #icon {
+            width: 3rem;
+            cursor: pointer;
+            padding: 1rem 0 0 1rem;
+        }
+        
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 10px;
+        }
+        
+        #myBtn:hover {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+        }
+        
+        .big {
+            font-size: 2rem;
+        }
+        
+        #header {
+            height: 5rem;
+            width: 100%;
+        }
+        
+        .mode {
+            position: absolute;
+            right: 1rem;
+            top: 0.5rem;
+        }
+        
+        .brand {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            color: var(--secondary-color);
+            font-family: 'Seymour One', sans-serif;
+        }
+        
+        @media all and (max-width: 980px) {
+            ul li {
+                margin: 3rem;
+            }
+            ul li img {
+                width: 13rem;
+                height: 100%;
+            }
+            .heading {
+                margin: 2.5rem 0;
+            }
+            #myBtn {
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 10px;
+                z-index: 99;
+                border: none;
+                outline: none;
+                background-color: var(--primary-color);
+                color: var(--secondary-color);
+                cursor: pointer;
+                padding: 10px;
+                border-radius: 10px;
+                font-size: 10px;
+            }
+            #myBtn:hover {
+                background-color: var(--secondary-color);
+                color: var(--primary-color);
+            }
+        }

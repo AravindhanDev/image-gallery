@@ -12,6 +12,7 @@
             borderRadius: "0.5rem",
             imageWidth: "40rem",
             imageHeight: "30rem",
+            marginTop: "2rem",
             imageCaption: {
                 exist: true,
                 color: "#fff",
@@ -67,6 +68,7 @@
                     "width": settings.imageWidth,
                     "height": settings.imageHeight,
                     "border": settings.imageBorder,
+                    "margin-top": settings.marginTop,
                     "border-radius": settings.borderRadius
                 });
                 $overlay.append($image);
@@ -97,7 +99,7 @@
                     "display": "none",
                     "text-align": "center",
                     "width": "100%",
-                    "height": "100%",
+                    "height": "80%",
                     "padding-top": "5%"
                 });
                 $("body").append($overlay);

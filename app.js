@@ -1,19 +1,19 @@
 $('#imageGallery').imagePopup({
-    overlay: "rgba(0, 100, 100, 0.5)",
     closeButton: {
         src: "images/close.png",
-        width: "4rem",
-        height: "4rem"
+        width: "3rem",
+        height: "3rem"
     },
     imageBorder: "10px solid #f4eee8",
     borderRadius: "0.5rem",
-    imageWidth: "20rem",
-    imageHeight: "20rem",
+    imageWidth: "18rem",
+    imageHeight: "18rem",
+    marginTop: "2.5rem",
     imageCaption: {
         exist: true,
         color: "#f4eee8",
         fontSize: "2rem",
-        marginTop: "1rem"
+        marginTop: "1.5rem"
     },
     open: function() {
         console.log("Opened");
@@ -25,21 +25,21 @@ $('#imageGallery').imagePopup({
 });
 
 $('#imageGallery2').imagePopup({
-    overlay: "rgba(0, 100, 100, 0.5)",
     closeButton: {
         src: "images/close.png",
-        width: "4rem",
-        height: "4rem"
+        width: "3rem",
+        height: "3rem"
     },
     imageBorder: "10px solid #f4eee8",
     borderRadius: "0.5rem",
-    imageWidth: "20rem",
-    imageHeight: "20rem",
+    imageWidth: "18rem",
+    imageHeight: "18rem",
+    marginTop: "2.5rem",
     imageCaption: {
         exist: true,
         color: "#f4eee8",
         fontSize: "2rem",
-        marginTop: "1rem"
+        marginTop: "1.5rem"
     },
     open: function() {
         console.log("Opened");
@@ -52,21 +52,21 @@ $('#imageGallery2').imagePopup({
 
 
 $('#imageGallery3').imagePopup({
-    overlay: "rgba(0, 100, 100, 0.5)",
     closeButton: {
         src: "images/close.png",
-        width: "4rem",
-        height: "4rem"
+        width: "3rem",
+        height: "3rem"
     },
     imageBorder: "10px solid #f4eee8",
     borderRadius: "0.5rem",
-    imageWidth: "20rem",
-    imageHeight: "20rem",
+    imageWidth: "18rem",
+    imageHeight: "18rem",
+    marginTop: "2.5rem",
     imageCaption: {
         exist: true,
         color: "#f4eee8",
         fontSize: "2rem",
-        marginTop: "1rem"
+        marginTop: "1.5rem"
     },
     open: function() {
         console.log("Opened");
